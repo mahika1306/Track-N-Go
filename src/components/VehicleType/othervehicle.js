@@ -67,7 +67,7 @@ function Othervehicle() {
   };
 
   return (
-    <div>
+    <div className='bus'>
       <h2>Other Vehicle Details</h2>
       <div>
         <h3>Vehicle Details</h3>
@@ -104,10 +104,15 @@ function Othervehicle() {
         />
       </div>
       <div>
-        <button onClick={addDataToFirestore}>Add Data to Firestore</button>
+        <button className='subBtn' onClick={addDataToFirestore}>Submit</button>
       </div>
     </div>
   );
 }
 
 export default Othervehicle;
+
+
+
+
+

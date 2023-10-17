@@ -1,24 +1,46 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./home.css"
 function Home(props) {
   return (
     <div>
       <div>
-        <h1>
-          <Link to="/login">Login</Link>
+        <div className="heading">
+          <div>
+          <h3 className="title">GoMap</h3>
+          </div>
+         <div>
+         <h3 className="para">
+         Start your journey with GoMap by entering your vehicle details. </h3>
+         <h3 className="para">Together, lets make every ride easy and efficient</h3>
+        
+         </div>
+
+         
+          </div>
+          <div className="btnClass">
+            <div>
+            <h1>
+          <Link to="/login">
+            <button myClass="btn1">Login</button></Link>
         </h1>
-        <br />
+            </div>
+       
+        <div>
         <h1>
-          <Link to="/signup">Signup</Link>
+          <Link to="/signup">
+            <button myClass="btn2">Signup</button></Link>
         </h1>
+        </div>
+        
+        </div>
       </div>
 
       <br />
       <br />
       <br />
 
-      <h2>{props.name ? `Welcome - ${props.name}` : "Login please"}</h2>
+      {/* <h2>{props.name ? `Welcome - ${props.name}` : "Login please"}</h2> */}
     </div>
   );
 }

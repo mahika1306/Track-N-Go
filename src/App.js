@@ -5,7 +5,8 @@ import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
 import VehicleType from "./components/VehicleType/VehicleType";
 import BusPage from "./components/VehicleType/bus";
-import Othervehicle from "./components/VehicleType/othervehicle"
+import Othervehicle from "./components/VehicleType/Othervehicle"; 
+
 import { auth } from "./firebase";
 import "./App.css";
 import "./components/VehicleType/busstyle.css"

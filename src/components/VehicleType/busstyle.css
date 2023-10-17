@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-image: linear-gradient(120deg, #3498db, #f39c12);
-    color: #333;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../../background.jpg');
+   
   }
   
   /* Header styles */
@@ -24,6 +24,20 @@ body {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .bus{
+    margin-top:150px;
+    min-width: 380px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+    
   }
   
   /* Section styles */
@@ -112,7 +126,6 @@ body {
   button {
     width: 100%;
     padding: 12px;
-    background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -121,7 +134,42 @@ body {
   }
   
   /* Button hover effect */
-  button:hover {
+  /* button:hover {
     background-color: #0056b3;
+  } */
+  .intBtn{
+    width:40%;
+    margin:10px auto;
+    border:1px solid lightgrey;
+    padding: 3px;
+    border-radius:8px;
+    height: 40px;
+    font-size:17px;
+    text-align: center;
+    background-color:rgb(41, 36, 36);
+    cursor: pointer;
+  }
+  .intBtn:hover{
+    background-color:rgb(76, 65, 65);
+    color:black;
+  }
+  .subBtn{
+    width:50%;
+    margin:10px auto;
+    border:1px solid lightgrey;
+    padding: 3px;
+    border-radius:8px;
+    height: 40px;
+    font-size:17px;
+    text-align: center;
+    background-color:rgb(41, 36, 36);
+    cursor: pointer;
+    display: flex; 
+  justify-content: center;
+  align-items: center;
+  }
+  .subBtn:hover{
+    background-color:rgb(76, 65, 65);
+    color:black;
   }
   

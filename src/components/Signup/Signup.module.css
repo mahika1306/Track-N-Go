@@ -2,14 +2,14 @@
   height: 100%;
   min-height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, #9900ff, #cc80ff);
+  /* background: linear-gradient(to right, #9900ff, #cc80ff); */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .innerBox {
-  min-width: 480px;
+  min-width: 580px;
   height: fit-content;
   width: fit-content;
   background-color: #fff;
@@ -35,7 +35,7 @@
 }
 
 .footer button {
-  outline: none;
+  /* outline: none;
   border: none;
   background-color: #9900ff;
   color: #fff;
@@ -45,6 +45,16 @@
   padding: 10px 16px;
   width: 100%;
   transition: 100ms;
+  cursor: pointer; */
+  width:65%;
+  margin:10px auto;
+  border:1px solid lightgrey;
+  padding: 3px;
+  border-radius:8px;
+  height: 40px;
+  font-size:17px;
+  text-align: center;
+  background-color:rgb(41, 36, 36);
   cursor: pointer;
 }
 
@@ -53,7 +63,9 @@
 }
 
 .footer button:hover {
-  background-color: #aa2aff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  background-color:rgb(62, 60, 60);
+  color: white;
 }
 
 .footer p {
@@ -63,7 +75,7 @@
 
 .footer p span a {
   font-weight: bold;
-  color: #9900ff;
+  color: blue;
   letter-spacing: 1px;
   font-size: 1rem;
   text-decoration: none;
