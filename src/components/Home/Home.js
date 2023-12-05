@@ -7,11 +7,11 @@ function Home(props) {
       <div>
         <div className="heading">
           <div>
-          <h3 className="title">GoMap</h3>
+          <h3 className="title">Track N Go</h3>
           </div>
          <div>
          <h3 className="para">
-         Start your journey with GoMap by entering your vehicle details. </h3>
+         Start your journey with us by entering your vehicle details. </h3>
          <h3 className="para">Together, lets make every ride easy and efficient</h3>
         
          </div>
